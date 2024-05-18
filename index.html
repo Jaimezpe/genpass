@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passwords Generator</title>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="container">
+    <h2>Passwords Generator</h2>
+    <input type="text" id="siteName" placeholder="Site name"><br>
+    <input type="submit" value="Gen Password" class="genpassword" onclick="generatePassword()">
+    <p id="password"></p>
+    <ul id="password-list">
+        
+    </ul>
+    <input type="button" value="Download passwords" class="downloadlink" onclick="downloadPasswords()">
+</div>
+</body>
+</html>
