@@ -3,6 +3,9 @@ body {
         background-color: #161616;
         text-align: center;
         margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #container {
         width: 40%;
